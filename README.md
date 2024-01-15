@@ -8,10 +8,10 @@ TechStack & Tools - Node.js, Express.js, Mysql, Postman, MySQLWorkBench
 POST - http://localhost:3000/api/user/register
 
 BODY - `{
-"name" : "Chitra",
-"email": "chitra@gmail.com",
+"name" : "Jhon",
+"email": "jhon@gmail.com",
 "password": "123456",
-"phoneNumbers": ["8953224560", "8317020580"]
+"phoneNumbers": ["891211111", "8301111111"]
 }`
 
 ---
@@ -21,7 +21,7 @@ BODY - `{
 POST - http://localhost:3000/api/user/:userId/markNumberAsSpam
 
 BODY - {`
-"phoneNumber" : "8953224562"
+"phoneNumber" : "8953111111"
 }`
 
 ----
@@ -30,7 +30,7 @@ BODY - {`
 
 GET - http://localhost:3000/api/user/search/byName?name=Jhon
 
-GET - http://localhost:3000/api/user/search/byPhoneNumber?phoneNumber=8050284560
+GET - http://localhost:3000/api/user/search/byPhoneNumber?phoneNumber=8051211161
 
 GET - http://localhost:3000/api/user/search/:userId
 
